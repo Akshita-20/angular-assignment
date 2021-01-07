@@ -1,0 +1,96 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 2,
+      "productName": "sarees",
+      "description": "Product description goes here",
+      "rating": 5,
+      "price": 120,
+      "productImg": "http://localhost:3200/assets/saree.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "productName": "Shoes",
+      "description": "Product description goes here",
+      "rating": 3,
+      "price": 120,
+      "productImg": "http://localhost:3200/assets/shoe.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 3,
+      "categoryId": 3,
+      "productName": "Tshirts",
+      "description": "Product description goes here",
+      "rating": 3,
+      "price": 34343,
+      "productImg": "http://localhost:3200//assets/tshirts.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 4,
+      "categoryId": 4,
+      "productName": "Dresses",
+      "description": "Product description goes here",
+      "rating": 2,
+      "price": 2330,
+      "productImg": "http://localhost:3200/assets/dress.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "id": 5,
+      "categoryId": 5,
+      "productName": "Watches",
+      "description": "Product description goes here",
+      "rating": 2,
+      "price": 2330,
+      "productImg": "http://localhost:3200/assets/watch.jpg",
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "sarees"
+    },
+    {
+      "id": 2,
+      "categoryName": "Shoes"
+    },
+    {
+      "id": 3,
+      "categoryName": "Tshirts"
+    },
+    {
+      "id": 4,
+      "categoryName": "Dresses"
+    },
+    {
+      "id": 5,
+      "categoryName": "Watches"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
